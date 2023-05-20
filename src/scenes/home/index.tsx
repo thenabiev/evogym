@@ -33,12 +33,12 @@ const Home = ({setSelectedPage}: Props) => {
                 <img src={HomePageText} alt="Home page text" />
               </div>
             </div>
-              <p>
+              <p className='mt-8 text-sm'>
                 Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get the Body Shapes That you Dream of. Get Your Dream Now!
               </p>
           </div>
             {/* Actions */}
-            <div>
+            <div className='mt-8 flex items-center gap-8 md:justify-start'>
               <ActionButton setSelectedPage={setSelectedPage}>Join Now</ActionButton>
               <AnchorLink
                 className='text-sm font-bold text-primary-500 underline hover:text-secondary-500'
